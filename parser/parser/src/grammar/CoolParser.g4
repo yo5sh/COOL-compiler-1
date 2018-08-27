@@ -295,7 +295,7 @@ expr returns [AST.expression value]:
         }
         | 
         // bool constant
-        b=BOOL_CONST {
+        b=BOOL_CONST {helloimlm .m;/m;
             $value = new AST.bool_const("true".equalsIgnoreCase($b.getText()), $b.getLine());
         }
         ;
